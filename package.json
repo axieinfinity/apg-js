@@ -11,7 +11,8 @@
     "bundle-apg-lib": "./bin/apg-lib-bundle.sh",
     "bundle-apg-api": "./bin/apg-api-bundle.sh",
     "bundle-apg-exp": "./bin/apg-exp-bundle.sh",
-    "bundle-apg-lib-css": "./dev/apg-lib-bundle-css.sh"
+    "bundle-apg-lib-css": "./dev/apg-lib-bundle-css.sh",
+    "build": "npm run apg && npm run apg-conv && npm run bundle-apg-conv-api && npm run bundle-apg-lib && npm run bundle-apg-api && npm run bundle-apg-exp && npm run bundle-apg-lib-css"
   },
   "files": [
     "src",
