@@ -3,6 +3,9 @@
   "version": "4.1.3",
   "description": "JavaScript APG, an ABNF Parser Generator",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "test": "cat ./dist/desc.txt",
     "apg": "./bin/apg.sh",
