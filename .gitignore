@@ -17,4 +17,7 @@
 **tmp/
 **__tests__/
 dist
-
+temp.css
+temp-cat.less
+temp.less
+.npmrc

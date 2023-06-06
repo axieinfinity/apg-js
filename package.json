@@ -1,5 +1,5 @@
 {
-  "name": "apg-js",
+  "name": "@axieinfinity/apg-js",
   "version": "4.1.3",
   "description": "JavaScript APG, an ABNF Parser Generator",
   "main": "index.js",
